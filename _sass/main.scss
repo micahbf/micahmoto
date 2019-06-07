@@ -31,6 +31,11 @@ header h1 {
     margin-block-end: -0.2em;
 }
 
+header a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .location, .published {
     font-family: $header-font-stack;
 }
