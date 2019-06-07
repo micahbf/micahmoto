@@ -6,7 +6,7 @@ layout: default
     <h2>{{ page.title | escape }}</h2>
   {%- endif -%}
   {%- if page.location -%}
-    <div class="location">{{ page.location }}</div>
+    <div class="location">{{ page.location | escape }}</div>
   {%- endif -%}
   <time class="published" datetime="{{ page.date | date_to_xmlschema }}">
     {{ page.date | date: "%B %e, %Y" }}
