@@ -3,7 +3,6 @@ layout: post
 title:  "Blarnum Falarnum"
 location: "Hottie Cooterati"
 date:   2019-06-06 18:58:55 -0700
-categories: balls
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu aliquet augue, quis euismod diam. Nullam consequat vehicula mauris, non condimentum libero pretium sed. Maecenas id laoreet est. Morbi sollicitudin dolor vitae eros vehicula commodo. Phasellus sit amet urna urna. Nam velit arcu, aliquet vel metus a, laoreet finibus quam. Praesent eu nisi nec ligula pretium venenatis.
 
