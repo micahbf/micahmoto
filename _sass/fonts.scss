@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'FreightMicroProMedium';
+    font-weight: normal;
+    font-style: normal;
+    src: url('/assets/fonts/FreightMicroProMedium-Regular.eot');
+    src: url('/assets/fonts/FreightMicroProMedium-Regular.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/FreightMicroProMedium-Regular.woff2') format('woff2'),
+         url('/assets/fonts/FreightMicroProMedium-Regular.woff') format('woff'),
+         url('/assets/fonts/FreightMicroProMedium-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FreightMicroProMedium';
+    font-weight: normal;
+    font-style: italic;
+    src: url('/assets/fonts/FreightMicroProMedium-Italic.eot');
+    src: url('/assets/fonts/FreightMicroProMedium-Italic.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/FreightMicroProMedium-Italic.woff2') format('woff2'),
+         url('/assets/fonts/FreightMicroProMedium-Italic.woff') format('woff'),
+         url('/assets/fonts/FreightMicroProMedium-Italic.ttf') format('truetype');
+}
+
+$header-font-stack: FreightMicroProMedium, Palatino, Georgia, serif;
+$body-font-stack: Avenir, sans-serif;

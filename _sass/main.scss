@@ -1,0 +1,50 @@
+@import 'fonts.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+// pure.css font override
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+    font-family: $body-font-stack;
+}
+
+h1, h2, h3, h4 {
+    font-family: $header-font-stack;
+}
+
+header {
+    background-image: url('/assets/images/header-road.jpg');
+    background-position: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #400000;
+    margin-block-start: auto;
+    margin-block-end: -0.2em;
+}
+
+.location, .published {
+    font-family: $header-font-stack;
+}
+
+.content {
+    padding: 2em 1em 0;
+    background-color: #fcfbf7;
+
+    @media (min-width: 48em) {
+        padding: 2em 3em 0;
+    }
+}
+
+article {
+    padding-bottom: 2em;
+    color: #232323;
+    margin: 0 auto;
+    max-width: 43em;
+}
