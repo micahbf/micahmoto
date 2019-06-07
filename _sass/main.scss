@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
 }
 
 header {
-    background-image: url('/assets/images/header-road.jpg');
+    background-image: url('/assets/layout_images/header-road.jpg');
     background-position: center;
     height: 250px;
     display: flex;
@@ -31,7 +31,7 @@ header h1 {
     margin-block-end: -0.2em;
 }
 
-header a, h2 a {
+header a, h2 a, .published a {
     color: inherit;
     text-decoration: inherit;
 }

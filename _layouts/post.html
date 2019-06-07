@@ -9,7 +9,7 @@ layout: default
     <div class="location">{{ page.location | escape }}</div>
   {%- endif -%}
   <time class="published" datetime="{{ page.date | date_to_xmlschema }}">
-    {{ page.date | date: "%B %e, %Y" }}
+    <a href="{{ page.url }}">{{ page.date | date: "%B %e, %Y" }}</a>
   </time>
   <div class="body">
     {{ content }}
