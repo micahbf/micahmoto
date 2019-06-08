@@ -1,0 +1,6 @@
+markup_presets:
+  default:
+    attributes:
+      picture: 'class="pure-img"'
+      img: 'class="pure-img"'
+    link_source: true
