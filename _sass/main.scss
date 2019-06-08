@@ -2,6 +2,16 @@
 @import 'purecss-1.0.0-grids-responsive-min.scss';
 @import 'fonts.scss';
 
+$bg-color: #fcfbf7;
+$text-main-color: #232323;
+$text-heading-color: #400000;
+$link-color: #00008b;
+
+$bg-color-dark: #232323;
+$text-main-color-dark: #fcfbf7;
+$text-heading-color-dark: #fcfbf7;
+$link-color-dark: #aec8dd;
+
 * {
     box-sizing: border-box;
 }
@@ -11,9 +21,7 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
     font-family: $body-font-stack;
 }
 
-h1, h2, h3, h4 {
-    font-family: $header-font-stack;
-}
+// Layout
 
 header {
     background-image: url('/assets/layout_images/header-road.jpg');
@@ -24,25 +32,15 @@ header {
     padding: 1em;
 }
 
-header h1 {
-    font-size: 3em;
-    color: #400000;
-    margin-block-start: auto;
-    margin-block-end: -0.2em;
-}
-
-header a, h2 a, .published a {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-.location, .published {
-    font-family: $header-font-stack;
-}
-
 .content {
     padding: 2em 1em 0;
-    background-color: #fcfbf7;
+    color: $text-main-color;
+    background-color: $bg-color;
+
+    @media (prefers-color-scheme: dark) {
+        background-color: $bg-color-dark;
+        color: $text-main-color-dark;
+    }
 
     @media (min-width: 48em) {
         padding: 2em 3em 0;
@@ -51,7 +49,48 @@ header a, h2 a, .published a {
 
 article {
     padding-bottom: 2em;
-    color: #232323;
     margin: 0 auto;
     max-width: 43em;
+}
+
+// Text
+
+h1, h2, h3, h4 {
+    font-family: $header-font-stack;
+    color: $text-heading-color;
+
+    @media (prefers-color-scheme: dark) {
+        color: $text-heading-color-dark;
+    }
+}
+
+header h1 {
+    font-size: 3em;
+    margin-block-start: auto;
+    margin-block-end: -0.2em;
+
+    @media (prefers-color-scheme: dark) {
+        // preserve normal color against background image
+        color: $text-heading-color;
+    }
+}
+
+a {
+    color: $link-color;
+    &:hover { color: lighten($link-color, 10%); }
+
+    @media (prefers-color-scheme: dark) {
+        color: $link-color-dark;
+        &:hover { color: darken($link-color-dark, 10%); }
+    }
+}
+
+header a, h2 a, .published a {
+    color: inherit;
+    text-decoration: inherit;
+    &:hover { color: inherit; }
+}
+
+.location, .published {
+    font-family: $header-font-stack;
 }
