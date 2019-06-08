@@ -26,8 +26,6 @@ timezone: America/Mexico_City
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
 
 pagination:
   enabled: true
