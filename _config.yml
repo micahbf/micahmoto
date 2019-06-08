@@ -18,7 +18,7 @@ author: Micah Buckley-Farlee
 email: micahbuckleyfarlee@gmail.com
 description: >-
   Updates from my travels through Central and South America by motorcycle
-logo: "assets/layout_images/share_logo.jpg"
+logo: "/assets/layout_images/share_logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://micah.motorcycles" # the base hostname & protocol for your site, e.g. http://example.com
 
