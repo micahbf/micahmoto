@@ -1,3 +1,11 @@
 Sidebar!
 
+<div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+ mapboxgl.accessToken = 'pk.eyJ1IjoibWljYWhiZiIsImEiOiJjanJ6ZndweWEwcmo4NDNvN2J4Mmk5cGNyIn0.7C-m7ZyaW-PS-YRBX3wOWQ';
+ var map = new mapboxgl.Map({
+   container: 'map',
+   style: 'mapbox://styles/micahbf/cjwp89saq75s21cpjhh9126sr'
+ });
+</script>
 <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
