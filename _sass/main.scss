@@ -23,6 +23,13 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
 
 // Layout
 
+body {
+    background-color: $bg-color;
+    @media (prefers-color-scheme: dark) {
+        background-color: $bg-color-dark;
+    }
+}
+
 header {
     background-image: url('/assets/layout_images/header_road.jpg');
     background-position: center;
@@ -51,6 +58,15 @@ article {
     padding-bottom: 2em;
     margin: 0 auto;
     max-width: 43em;
+}
+
+.pagination {
+    text-align: center;
+
+    li {
+        display: inline-block;
+        margin: 0 1em;
+    }
 }
 
 // Text
@@ -93,4 +109,8 @@ header a, h2 a, .published a {
 
 .location, .published {
     font-family: $header-font-stack;
+}
+
+.inline-icon {
+    height: 1em;
 }

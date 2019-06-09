@@ -23,6 +23,7 @@ layout: default
           <a class="u-url" href="{{ post.url | relative_url }}" hidden></a>
       </article>
     {%- endfor -%}
+    {% include pagination.html %}
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
