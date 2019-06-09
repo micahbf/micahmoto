@@ -20,5 +20,27 @@
          url('/assets/fonts/FreightMicroProMedium-Italic.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'FFTisaSans';
+    font-weight: normal;
+    font-style: normal;
+    src: url('/assets/fonts/FFTisaSans-Regular.eot');
+    src: url('/assets/fonts/FFTisaSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/FFTisaSans-Regular.woff2') format('woff2'),
+         url('/assets/fonts/FFTisaSans-Regular.woff') format('woff'),
+         url('/assets/fonts/FFTisaSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FFTisaSans';
+    font-weight: normal;
+    font-style: italic;
+    src: url('/assets/fonts/FFTisaSans-Italic.eot');
+    src: url('/assets/fonts/FFTisaSans-Italic.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/FFTisaSans-Italic.woff2') format('woff2'),
+         url('/assets/fonts/FFTisaSans-Italic.woff') format('woff'),
+         url('/assets/fonts/FFTisaSans-Italic.ttf') format('truetype');
+}
+
 $header-font-stack: FreightMicroProMedium, Palatino, Georgia, serif;
-$body-font-stack: Avenir, sans-serif;
+$body-font-stack: FFTisaSans, Avenir, sans-serif;
