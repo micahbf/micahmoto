@@ -54,6 +54,12 @@ header {
     }
 }
 
+main {
+    @media (min-width: 48em) {
+        padding-right: 1em;
+    }
+}
+
 article {
     padding-bottom: 2em;
     margin: 0 auto;
@@ -69,7 +75,12 @@ article {
     }
 }
 
-// Text
+#map {
+    width: 100%;
+    height: 40vh;
+}
+
+// Typography
 
 h1, h2, h3, h4 {
     font-family: $header-font-stack;
