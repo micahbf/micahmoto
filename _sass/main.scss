@@ -101,7 +101,7 @@ a {
     }
 }
 
-header a, h2 a, .published a {
+header a, .title a, .published a {
     color: inherit;
     text-decoration: inherit;
     &:hover { color: inherit; }

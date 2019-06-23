@@ -3,7 +3,7 @@ layout: default
 ---
 <article>
   {%- if page.title -%}
-    <h2><a href="{{ page.url }}"> {{ page.title | escape }}</a></h2>
+    <h2 class="title"><a href="{{ page.url }}"> {{ page.title | escape }}</a></h2>
   {%- endif -%}
   {%- if page.location -%}
     <div class="location">{{ page.location | escape }}</div>
