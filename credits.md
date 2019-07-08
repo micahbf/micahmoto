@@ -6,7 +6,7 @@ permalink: /credits/
 
 This site is generated using [Jekyll](https://jekyllrb.com/).
 
-It uses [Pure CSS](https://purecss.io/) for layout.
+It uses [Pure CSS](https://purecss.io/) for responsive layout primitives.
 
 The heading font is Freight Micro Pro Medium by Joshua Darden, licensed by [MyFonts](https://www.myfonts.com/fonts/garagefonts/freight-micro-pro/).
 
