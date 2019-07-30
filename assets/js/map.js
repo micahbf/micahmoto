@@ -8,6 +8,8 @@ const map = new mapboxgl.Map({
   zoom: 5
 });
 
+map.addControl(new mapboxgl.FullscreenControl());
+
 const geojsonUrl = 'https://mapapp.micah.motorcycles/realtime_track?from=2019-07-10T00:00:00.000Z';
 
 map.on('load', () => {
