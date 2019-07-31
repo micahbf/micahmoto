@@ -1,6 +1,9 @@
 "use strict";
 
 mapboxgl.accessToken = "pk.eyJ1IjoibWljYWhiZiIsImEiOiJjanJ6ZndweWEwcmo4NDNvN2J4Mmk5cGNyIn0.7C-m7ZyaW-PS-YRBX3wOWQ";
+
+const mapDataUrl = "https://mapapp.micah.motorcycles/map_data?from=2019-07-10T00:00:00.000Z";
+
 const map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/micahbf/cjwp89saq75s21cpjhh9126sr",
@@ -10,15 +13,13 @@ const map = new mapboxgl.Map({
 
 map.addControl(new mapboxgl.FullscreenControl());
 
-const mapdataUrl = "https://mapapp.micah.motorcycles/map_data?from=2019-07-10T00:00:00.000Z";
-
 map.on("load", () => {
-  map.addSource("mapdata", { type: "geojson", data: mapdataUrl });
+  map.addSource("mapData", { type: "geojson", data: mapDataUrl });
 
   map.addLayer({
     id: "liveTrack",
     type: "line",
-    source: "mapdata",
+    source: "mapData",
     filter: ["==", ["get", "class"], "liveTrack"],
     layout: {
       "line-join": "round",
@@ -33,13 +34,10 @@ map.on("load", () => {
   map.addLayer({
     id: "endOfDays",
     type: "symbol",
-    source: "mapdata",
+    source: "mapData",
     filter: ["==", ["get", "class"], "endOfDay"],
     layout: {
       "icon-image": "circle-11"
-      // "text-field": "{name}",
-      // "text-anchor": "right",
-      // "text-offset": [0.6, 0]
     }
   });
 });
