@@ -40,4 +40,41 @@ map.on("load", () => {
       "icon-image": "circle-11"
     }
   });
+
+  map.addLayer({
+    id: "lastUpdate",
+    type: "symbol",
+    source: "mapData",
+    filter: ["==", ["get", "class"], "lastUpdate"],
+    layout: {
+      "icon-image": "star-stroked-11"
+    }
+  });
+
+  const popup = new mapboxgl.Popup({
+    closeButton: false,
+    closeOnClick: false
+  });
+
+  const addPointPopup = function (e) {
+    map.getCanvas().style.cursor = 'pointer';
+
+    const coordinates = e.features[0].geometry.coordinates.slice();
+    const name = e.features[0].properties.name;
+
+    popup.setLngLat(coordinates)
+      .setHTML(name)
+      .addTo(map);
+  };
+
+  const removePointPopup = function () {
+    map.getCanvas().style.cursor = '';
+    popup.remove();
+  };
+
+  map.on('mouseenter', 'endOfDays', addPointPopup);
+  map.on('mouseleave', 'endOfDays', removePointPopup);
+
+  map.on('mouseenter', 'lastUpdate', addPointPopup);
+  map.on('mouseleave', 'lastUpdate', removePointPopup);
 });

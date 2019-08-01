@@ -145,3 +145,30 @@ header a, .title a, .published a {
         height: 100%;
     }
 }
+
+// Mapbox styles
+#map {
+    .mapboxgl-popup-content {
+        background-color: $bg-color-dark;
+        color: $text-main-color-dark;
+        font-family: $body-font-stack;
+        padding: 7px;
+    }
+
+    .mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
+    .mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip,
+    .mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
+        border-bottom-color: $bg-color-dark;
+    }
+    .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
+    .mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip,
+    .mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
+        border-top-color: $bg-color-dark;
+    }
+    .mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+        border-right-color: $bg-color-dark;
+    }
+    .mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+        border-left-color: $bg-color-dark;
+    }
+}
