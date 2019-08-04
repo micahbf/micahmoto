@@ -56,7 +56,7 @@ map.on("load", () => {
     closeOnClick: false
   });
 
-  const addPointPopup = function (e) {
+  const addPointPopup = (e) => {
     map.getCanvas().style.cursor = 'pointer';
 
     const coordinates = e.features[0].geometry.coordinates.slice();
@@ -67,7 +67,7 @@ map.on("load", () => {
       .addTo(map);
   };
 
-  const removePointPopup = function () {
+  const removePointPopup = () => {
     map.getCanvas().style.cursor = '';
     popup.remove();
   };
