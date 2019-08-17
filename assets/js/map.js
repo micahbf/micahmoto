@@ -2,8 +2,6 @@
 
 mapboxgl.accessToken = "pk.eyJ1IjoibWljYWhiZiIsImEiOiJjanJ6ZndweWEwcmo4NDNvN2J4Mmk5cGNyIn0.7C-m7ZyaW-PS-YRBX3wOWQ";
 
-const mapDataUrl = "https://mapapp.micah.motorcycles/map_data?from=2019-07-10T00:00:00.000Z";
-
 const map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/micahbf/cjwp89saq75s21cpjhh9126sr",
@@ -14,6 +12,10 @@ const map = new mapboxgl.Map({
 map.addControl(new mapboxgl.FullscreenControl());
 
 map.on("load", () => {
+  const mapDataUrl = "https://mapapp.micah.motorcycles/map_data?from=2019-07-10T00:00:00.000Z";
+  const timeZone = 'America/Mexico_City';
+  const initMapBoundTime = 24 * 60 * 60 * 1000;
+
   map.addSource("mapData", { type: "geojson", data: mapDataUrl });
 
   map.addLayer({
@@ -57,7 +59,7 @@ map.on("load", () => {
   });
 
   const addPointPopup = (e) => {
-    map.getCanvas().style.cursor = 'pointer';
+    map.getCanvas().style.cursor = "pointer";
 
     const coordinates = e.features[0].geometry.coordinates.slice();
     const name = e.features[0].properties.name;
@@ -68,13 +70,69 @@ map.on("load", () => {
   };
 
   const removePointPopup = () => {
-    map.getCanvas().style.cursor = '';
+    map.getCanvas().style.cursor = "";
     popup.remove();
   };
 
-  map.on('mouseenter', 'endOfDays', addPointPopup);
-  map.on('mouseleave', 'endOfDays', removePointPopup);
+  const getLastUpdate = () => {
+    return map.querySourceFeatures(
+      "mapData",
+      {filter: ["==", ["get", "class"], "lastUpdate"]}
+    )[0];
+  };
 
-  map.on('mouseenter', 'lastUpdate', addPointPopup);
-  map.on('mouseleave', 'lastUpdate', removePointPopup);
+  const setCaptionFromLastUpdate = () => {
+    const lastUpdateObj = getLastUpdate();
+    if(!lastUpdateObj) { return; };
+
+    const captionText = lastUpdateObj.properties.name;
+    const captionEl = document.getElementById("map-last-updated");
+    captionEl.innerHTML = captionText;
+  };
+
+  const setBoundsFromMapData = () => {
+    const lastUpdateObj = getLastUpdate();
+    if(!lastUpdateObj) { return false; };
+
+    const lastUpdateDate = new Date(lastUpdateObj.properties.isoTime);
+
+    const endOfDays = map.querySourceFeatures(
+      "mapData",
+      {filter: ["==", ["get", "class"], "endOfDay"]}
+    );
+
+    const byTimeDesc = endOfDays.sort(
+      (a, b) => b.properties.isoTime.localeCompare(a.properties.isoTime)
+    );
+
+    const targetBound = byTimeDesc.find((endOfDay) => {
+      const date = new Date(endOfDay.properties.isoTime);
+      return lastUpdateDate - date > initMapBoundTime;
+    });
+    if(!targetBound) { return false; };
+
+    const bounds = [
+      lastUpdateObj.geometry.coordinates,
+      targetBound.geometry.coordinates
+    ];
+
+    map.fitBounds(bounds, {padding: 30, maxZoom: 5});
+    return true;
+  };
+
+  map.on("mouseenter", "endOfDays", addPointPopup);
+  map.on("mouseleave", "endOfDays", removePointPopup);
+
+  map.on("mouseenter", "lastUpdate", addPointPopup);
+  map.on("mouseleave", "lastUpdate", removePointPopup);
+
+  let initBoundsSet = false;
+  map.on("sourcedata", (mapDataEvent) => {
+    if(mapDataEvent.sourceId !== "mapData") { return; };
+    setCaptionFromLastUpdate();
+    if(!initBoundsSet) {
+      initBoundsSet = setBoundsFromMapData();
+    }
+  });
+
 });
