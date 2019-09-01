@@ -30,7 +30,7 @@ body {
     }
 }
 
-header {
+.page-header {
     background-image: url('/assets/layout_images/header_road.jpg');
     background-position: center;
     height: 250px;
@@ -64,6 +64,18 @@ article {
     padding-bottom: 2em;
     margin: 0 auto;
     max-width: 43em;
+
+    header {
+        margin: 0.83em 0;
+
+        h2 {
+            margin: 0;
+        }
+    }
+
+    &:first-child header {
+        margin-top: 0;
+    }
 }
 
 footer {
