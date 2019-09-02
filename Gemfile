@@ -6,6 +6,6 @@ group :jekyll_plugins do
   gem "jekyll-autoprefixer", "~> 1.0"
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-paginate-v2", "~> 1.5"
-  gem 'jekyll-picture-tag', git: 'https://github.com/robwierzbowski/jekyll-picture-tag/'
+  gem "jekyll_picture_tag"
   gem "jekyll-seo-tag", "~> 2.6"
 end

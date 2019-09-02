@@ -1,5 +1,13 @@
+media_presets:
+  mobile: 'max-width: 432px'
+  desktop: 'min-width: 433px'
+
 markup_presets:
   default:
+    widths: [400, 800, 1600]
+    sizes:
+      mobile: 400px
+      desktop: 688px
     attributes:
       picture: 'class="pure-img"'
       img: 'class="pure-img"'
