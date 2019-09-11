@@ -1,7 +1,5 @@
 "use strict";
 
-mapboxgl.accessToken = "pk.eyJ1IjoibWljYWhiZiIsImEiOiJjandwYWttcXUwcTljNDlta3ZxMHRtYXc1In0.yuABjOKjQk0t9mWbnWE8Jg";
-
 const map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/micahbf/cjwp89saq75s21cpjhh9126sr",
