@@ -10,7 +10,7 @@ const map = new mapboxgl.Map({
 map.addControl(new mapboxgl.FullscreenControl());
 
 map.on("load", () => {
-  const mapDataUrl = "https://mapapp.micah.motorcycles/map_data?from=2019-07-10T00:00:00.000Z";
+  const mapDataUrl = "https://mapapp.micah.motorcycles/map_data?from=2019-09-30T00:00:00.000Z";
   const timeZone = 'America/Mexico_City';
   const initMapBoundTime = 24 * 60 * 60 * 1000;
 
