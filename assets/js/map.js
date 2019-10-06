@@ -39,7 +39,7 @@ map.on("load", () => {
     layout: {
       "icon-image": "circle-11"
     }
-  }, "poi-label");
+  });
 
   map.addLayer({
     id: "lastUpdate",
@@ -49,7 +49,7 @@ map.on("load", () => {
     layout: {
       "icon-image": "star-stroked-11"
     }
-  }, "poi-label");
+  });
 
   const popup = new mapboxgl.Popup({
     closeButton: false,
