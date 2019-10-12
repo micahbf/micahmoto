@@ -40,6 +40,7 @@ pagination:
 picture:
   source: "assets/post_images"
   output: "assets/post_images/gen"
+  relative_url: false
 
 social:
   name: Micah Buckley-Farlee
