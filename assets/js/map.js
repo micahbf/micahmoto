@@ -90,6 +90,7 @@ map.on("load", () => {
 
   const setBoundsFromMapData = () => {
     const lastUpdateObj = getLastUpdate();
+    console.log("lastUpdateObj", lastUpdateObj);
     if(!lastUpdateObj) { return false; };
 
     const lastUpdateDate = new Date(lastUpdateObj.properties.isoTime);
@@ -107,6 +108,7 @@ map.on("load", () => {
       const date = new Date(endOfDay.properties.isoTime);
       return lastUpdateDate - date > initMapBoundTime;
     });
+    console.log("targetBound", targetBound);
     if(!targetBound) { return false; };
 
     const bounds = [
@@ -114,6 +116,7 @@ map.on("load", () => {
       targetBound.geometry.coordinates
     ];
 
+    console.log("bounds", bounds);
     map.fitBounds(bounds, {padding: 30, maxZoom: 5});
     return true;
   };
