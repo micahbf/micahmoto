@@ -90,7 +90,7 @@ map.on("load", () => {
 
   const setBoundsFromMapData = () => {
     const lastUpdateObj = getLastUpdate();
-    console.log("lastUpdateObj", lastUpdateObj);
+    console.log(lastUpdateObj);
     if(!lastUpdateObj) { return false; };
 
     const lastUpdateDate = new Date(lastUpdateObj.properties.isoTime);
