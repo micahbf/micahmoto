@@ -25,7 +25,6 @@ fetch(`https://mapapp.micah.motorcycles/map_metadata?${mapDataParams}`).
     map.addControl(new mapboxgl.FullscreenControl());
 
     map.on("load", () => {
-      document.getElementById('map-placeholder').remove();
       const mapDataUrl = `https://mapapp.micah.motorcycles/map_data?${mapDataParams}`;
       const timeZone = 'America/Mexico_City';
 
