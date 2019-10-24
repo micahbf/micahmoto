@@ -6,7 +6,7 @@ fetch(`https://mapapp.micah.motorcycles/map_metadata?${mapDataParams}`).
   then(response => response.json()).
   then((metadata) => {
     const captionEl = document.getElementById("map-last-updated");
-    captionEl.innerHTML = metadata.updateCaption;
+    if(captionEl) { captionEl.innerHTML = metadata.updateCaption; };
 
     return new mapboxgl.Map({
       container: "map",

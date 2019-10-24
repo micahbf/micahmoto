@@ -97,6 +97,10 @@ footer {
     height: 40vh;
     background-image: url('/assets/layout_images/map_blur.jpg');
     background-size: cover;
+
+    .big-map {
+        height: 90vh;
+    }
 }
 
 // Typography
