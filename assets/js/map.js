@@ -12,7 +12,7 @@ fetch(`https://mapapp.micah.motorcycles/map_metadata?${mapDataParams}`).
       container: "map",
       style: "mapbox://styles/micahbf/cjwp89saq75s21cpjhh9126sr",
       bounds: metadata.bounds,
-      fitBoundOptions: {padding: 30, maxZoom: 5}
+      fitBoundsOptions: {padding: 30, maxZoom: 5}
     });
   }).catch(() => {
     return new mapboxgl.Map({
