@@ -91,6 +91,21 @@ fetch(`https://mapapp.micah.motorcycles/map_metadata?${mapDataParams}`).
 
       map.on("mouseenter", "lastUpdate", addPointPopup);
       map.on("mouseleave", "lastUpdate", removePointPopup);
+
+      const toggleDayMarksEl = document.getElementById("toggle-day-marks");
+      if (toggleDayMarksEl) {
+        toggleDayMarksEl.onclick = (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+
+          const dayMarksVisible = map.getLayoutProperty("endOfDays", "visibility");
+          if(dayMarksVisible === "visible") {
+            map.setLayoutProperty("endOfDays", "visibility", "none");
+          } else {
+            map.setLayoutProperty("endOfDays", "visibility", "visible");
+          };
+        };
+      };
     });
   });
 
