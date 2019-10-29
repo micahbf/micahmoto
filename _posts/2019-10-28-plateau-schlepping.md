@@ -5,7 +5,7 @@ date: 2019-10-28T17:56:27-06:00
 location: "San Luis Potosí, San Luis Potosí, Mexico"
 ---
 
-Since leaving the Copper Canyon area, I’ve slowed my pace a changed up my style of travel a bit. Instead of riding around sketchy roads and finding vistas and spending every night in a different village, I’ve been exploring some cities of Mexico’s Northern Plateau, spending a couple nights in each. I’ve slowly made my way southeast via Hidalgo del Parral, Durango, Zacatecas, and San Luis Potosí.
+Since leaving the Copper Canyon area, I’ve slowed my pace and changed up my style of travel a bit. Instead of riding around sketchy roads and finding vistas and spending every night in a different village, I’ve been exploring some cities of Mexico’s Northern Plateau, spending a couple nights in each. I’ve slowly made my way southeast via Hidalgo del Parral, Durango, Zacatecas, and San Luis Potosí.
 
 It’s been nice not having to heave on the heavy, stinky moto gear every morning, and getting a bit of time to breathe and walk around and get to know the different cities a bit. They all have colonial histories, and charming Baroque old towns to go with them. These histories coincide with strong ties to silver mining, much of which is still apparent. The latter three cities are capitals of their namesake states. They range widely in size, though, and each one has its own character.
 
