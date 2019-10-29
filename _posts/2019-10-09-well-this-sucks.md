@@ -9,13 +9,13 @@ Even as I was writing my last post, I was feeling tinges of something off, which
 
 I made it to the Grand Canyon, which was fantastic.
 
-{% picture grandcanyon.jpg --alt "A slice of the Grand Canyon from the rim" %} 
+{% picture grandcanyon.jpg --alt A slice of the Grand Canyon from the rim %} 
 
 I just walked along the rim a bit the evening I got there, and shuffled around the area a bit until I found a nice campsite just down the road at a Forest Service campground. I settled in for the night, increasingly unable to ignore the aches and sore throat that were popping up, but determined to hike down into the canyon a bit the next morning.
 
 And that I did, and it was very nice, many pretty rocks, lots of them.
 
-{% picture grandcanyondetail.jpg ---alt "Grand Canyon rim wall detail" %}
+{% picture grandcanyondetail.jpg ---alt Grand Canyon rim wall detail %}
 
 After doing that in the late morning, I set my sights for a cheap motel in a tiny copper mining town some 260 miles down the road. 5 hours later I stumbled into my room absolutely whipped, and woke up the next morning feeling like garbage. I found myself in a predicament, because I could try to rest up there, but the nearest urgent care place was 80 miles away, and I might find myself feeling the same or worse the next day.
 

@@ -9,7 +9,7 @@ Since leaving the Copper Canyon area, I’ve slowed my pace a changed up my styl
 
 It’s been nice not having to heave on the heavy, stinky moto gear every morning, and getting a bit of time to breathe and walk around and get to know the different cities a bit. They all have colonial histories, and charming Baroque old towns to go with them. These histories coincide with strong ties to silver mining, much of which is still apparent. The latter three cities are capitals of their namesake states. They range widely in size, though, and each one has its own character.
 
-{% picture parral.jpg --alt "Parral's main church with the mine lurking behind" %}
+{% picture parral.jpg --alt Parral's main church with the mine lurking behind %}
 
 In Parral, a small city of around 100,000, the connection to mining is most strongly felt, thanks to the old silver mine on the hill still looming over the city, visible from pretty much anywhere. It’s also notable as the place where Pancho Villa was assassinated in 1923.
 
@@ -17,22 +17,22 @@ Speaking of Pancho Villa, there’s a nice museum about him in Durango (pop. ~65
 
 Zacatecas was the sleeper hit for me. It’s fairly small, at around 120,000 people. It has a stupid beautiful old town center. If you showed me a picture of Zacatecas at night I’d probably guess it was Prague or something.
 
-{% picture zacatecasnight.jpg --alt "A Zacatecas street at night" %}
+{% picture zacatecasnight.jpg --alt A Zacatecas street at night %}
 
 It’s full of young folks and hipsters, and no foreign tourists to speak of. Super friendly people. It’s also the kind of place where you are apt to run into a brass band roaming the streets, trailed by a donkey carrying mezcal being liberally dispensed for free. Ask me how I know!
 
-{% picture zacatecasband.jpg --alt "Zacatecas band in an alleyway" %}
+{% picture zacatecasband.jpg --alt Zacatecas band in an alleyway %}
 
 Also surprisingly good art museums, beer, pulque, etc. 
 
-{% picture zacatecascourtyard.jpg --alt "A Zacatecas courtyard" %}
+{% picture zacatecascourtyard.jpg --alt A Zacatecas courtyard %}
 
 A+, 5 stars, would visit again.
 
 Now I’m in the city of San Luis Potosí, the biggest of the four by a good margin with around 830,000 people, and a pretty cool spot. It gives me a grown-up Zacatecas vibe. A large and storied old town with a lot of nice plazas and parks and churches.
 
-{% picture slpchurch.jpg --alt "Templo de San Francisco? Maybe?" %}
-{% picture slpjardin.jpg --alt "A nice plaza in SLP" %}
+{% picture slpchurch.jpg --alt Templo de San Francisco? Maybe? %}
+{% picture slpjardin.jpg --alt A nice plaza in SLP %}
 
 I’m in a hip neighborhood to the east of downtown, near a massive park called Tangamanga. All really nice, and like Zacatecas, doesn’t seem to be on the map for foreign tourists.
 

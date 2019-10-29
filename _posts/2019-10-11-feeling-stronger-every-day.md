@@ -15,10 +15,10 @@ I’m really very jazzed about it. The immediate change in atmosphere that came 
 
 After I got off the main highway, the ride was really nice too.
 
-{% picture sonoraroad.jpg --alt "A becacticled road in Sonora" %}
+{% picture sonoraroad.jpg --alt A becacticled road in Sonora %}
 
 A quiet road through the Río Sonora Valley, bringing me to my destination for now of the quaint mission town, Banámichi. It’s a great town to stroll around, but the thing that brought me here is my accommodations. I’m at the Hotel Los Arcos de Sonora, a very charming place, and one that serves as a first stop for many American motorcyclists doing the same kind of thing I am. The proprietor is a motorcyclist himself, and a very kind man, who has already spent a lot of time chatting with me and getting me up to speed about the area and riding in Mexico.
 
-{% picture hotellosarcos.jpg --alt "Hotel Los Arcos" %}
+{% picture hotellosarcos.jpg --alt Hotel Los Arcos %}
 
 No cat, though. One star.
