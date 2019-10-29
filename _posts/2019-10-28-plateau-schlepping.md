@@ -32,6 +32,7 @@ A+, 5 stars, would visit again.
 Now I’m in the city of San Luis Potosí, the biggest of the four by a good margin with around 830,000 people, and a pretty cool spot. It gives me a grown-up Zacatecas vibe. A large and storied old town with a lot of nice plazas and parks and churches.
 
 {% picture slpchurch.jpg --alt Templo de San Francisco? Maybe? %}
+
 {% picture slpjardin.jpg --alt A nice plaza in SLP %}
 
 I’m in a hip neighborhood to the east of downtown, near a massive park called Tangamanga. All really nice, and like Zacatecas, doesn’t seem to be on the map for foreign tourists.
