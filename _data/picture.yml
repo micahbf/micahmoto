@@ -11,4 +11,5 @@ markup_presets:
     attributes:
       picture: 'class="pure-img"'
       img: 'class="pure-img"'
+      a: 'class="blog-picture" target="_blank"'
     link_source: true
