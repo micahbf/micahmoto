@@ -29,6 +29,7 @@ timezone: America/Mexico_City
 markdown: kramdown
 
 kramdown:
+  footnote_backlink: '&#8676;'
   header_offset: 2
 
 jekyll-archives:
