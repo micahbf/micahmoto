@@ -104,11 +104,41 @@ hr {
     width: 33%;
 }
 
+aside h4 {
+    margin-bottom: 0.1em;
+}
+
+aside p {
+    margin-top: 0.1em;
+}
+
+aside ul {
+    margin-top: 0.1em;
+    padding-left: 0;
+    list-style-type: none;
+}
+
 #map {
     width: 100%;
     height: 40vh;
     background-image: url('/assets/layout_images/map_blur.jpg');
     background-size: cover;
+}
+
+.archive-posts tr:nth-child(even) {
+    background-color: darken($bg-color, 5%);
+
+    @media (prefers-color-scheme: dark) {
+        background-color: lighten($bg-color-dark, 5%);
+    }
+}
+
+.archive-posts td {
+    padding: 0.1em 0.3em;
+}
+
+.archive-date {
+    text-align: right;
 }
 
 // Typography
