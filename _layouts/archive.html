@@ -1,0 +1,16 @@
+---
+layout: no_sidebar
+---
+
+<h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
+
+<ul class="archive-posts">
+    {% for post in page.posts %}
+    <li>
+        <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%b %-d, %Y" }}
+        </time>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
