@@ -42,7 +42,7 @@ From there to Morelia, yet another city with a nice colonial old town. It was, a
 
 Día de los Muertos traditionally marks the time when the monarchs start arriving to their winter home after the long trip from the northern US and Canada. This year, they were right on time. The reserve _technically_ isn’t open to the public yet, but there were some local guides hanging out at the entrance more than willing to take me in to see them. It’s a steep, rocky trail at around 10,000 feet in elevation, and it was advised that I rent a horse to ride up, which was not a hard sell (particularly at like $5 US).
 
-It’s too early for the butterflies to start forming permanent roosts for the winter, where entire trees will be packed with butterflies so fully that the butterflies can be mistaken for leaves. That doesn’t start for several more weeks. But, in several spots the sky was full with monarchs. They were flying pretty high, so it was kind of difficult to capture, but this does a half decent job:
+It’s too early for the butterflies to start forming permanent roosts for the winter, where entire trees will be packed with butterflies so fully that the butterflies can be mistaken for leaves. That doesn’t start for several more weeks. But, in several spots the sky was full with monarchs. They were flying pretty high, so it was kind of difficult to capture, but this does a half-decent job:
 
 {% picture monarchs.jpg --alt Monarchs flying high %}
 
