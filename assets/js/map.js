@@ -1,8 +1,6 @@
 "use strict";
 
-const mapDataParams = "from=2019-09-30T00:00:00.000Z";
-
-fetch(`https://mapapp.micah.motorcycles/map_metadata?${mapDataParams}`).
+fetch(`https://mapapp-cache.micah.motorcycles/map_metadata.json`).
   then(response => response.json()).
   then((metadata) => {
     const captionEl = document.getElementById("map-last-updated");
@@ -25,7 +23,7 @@ fetch(`https://mapapp.micah.motorcycles/map_metadata?${mapDataParams}`).
     map.addControl(new mapboxgl.FullscreenControl());
 
     map.on("load", () => {
-      const mapDataUrl = `https://mapapp.micah.motorcycles/map_data?${mapDataParams}`;
+      const mapDataUrl = `https://mapapp-cache.micah.motorcycles/map_data.json`;
       const timeZone = 'America/Mexico_City';
 
       map.addSource("mapData", { type: "geojson", data: mapDataUrl });
