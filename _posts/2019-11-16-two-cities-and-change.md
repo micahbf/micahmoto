@@ -15,7 +15,7 @@ The first day, I headed out to the pyramids of Teotihuacán, about an hour from 
 
 Pretty grandiose. The experience was enhanced by my tour guide, an indigenous man who grew up and lives almost literally in the shadow of the moon temple. After guiding us around the ruins, he brought us to his home to meet his family, and then to a nearby cave where he showed us some neat artifacts and then performed a ritual so that we might form a connection with our dualities. Not a bad tour.
 
-Other CDMX highlights include Chapultepec, the huge Central Park-style park, including a castle perched on a hill; the expansive National Museum of Anthropology with lots of neat Aztec and Mayan history and artifacts; the Casa Azul, the former residence of Frida Kahlo and Diego Rivera, kept as a museum of their life; and lots and lots of tacos. Like I said, I’ll be back.
+Other CDMX highlights include Chapultepec, the huge Central Park-style park, including a castle perched on a hill; the expansive National Museum of Anthropology with lots of neat Aztec and Mayan history and artifacts; the Casa Azul, the former residence of Frida Kahlo and Diego Rivera, kept as a museum of their lived; and lots and lots of tacos. Like I said, I’ll be back.
 
 {% picture azteccalendar.jpg --alt Aztec calendar in the National Museum of Anthropology %}
 
@@ -29,7 +29,7 @@ You might think it would be worrying approaching a road blocked by cars and patr
 
 After a not-so-restful night in Huajuapan – why would you put a bright-ass flood light outside of a room window which doesn’t have curtains, but more importantly WHY would you put a very sonorous caged tropical songbird in the courtyard of a hotel, also right next to my door – I rode to Oaxaca City aka Oaxaca de Juárez, Oaxaca.
 
-This is also a really cool city, and probably the one I would come back to first after CDMX. It has a reputation as the culinary capital of Mexico, which was borne out by many delights, perhaps chief of which is the tlayuda, kind of a hybrid between nachos and pizzas, with various meats and tomato and avocado placed upon a bed of beans and cheese on a giant tostada. I have no idea why this hasn’t become an institution of Mexican restaurants in the US.
+This is also a really cool city, and probably the one I would come back to first after CDMX. It has a reputation as the culinary capital of Mexico, which was borne out by many delights, perhaps chief of which is the tlayuda, kind of a hybrid between nachos and pizza, with various meats and tomato and avocado placed upon a bed of beans and cheese on a giant tostada. I have no idea why this hasn’t become an institution of Mexican restaurants in the US.
 
 {% picture tlayuda.jpg --alt A delicious tlayuda %}
 
@@ -40,7 +40,7 @@ The state of Oaxaca is also the spiritual home of mezcal. I took a day trip to t
 {% picture mezcalstill.jpg --alt A mezcal still in action %}
 {% picture mezcalsnakes.jpg --alt Jugs of mezcal with snakes %}
 
-I also tried a lot of mezcal. _A lot_ of mezcal.
+I also tried a lot of mezcal. A lot of mezcal.
 
 Now, on my way to the Pacific coast, I am in the village of San José del Pacífico, a small village nestled in the mountains known for its abundance of magic mushrooms. I ended up at a hippie cabin hostel here. There is someone outside of my room idly strumming on a guitar and occasionally breaking out into a bad falsetto. My room for the night cost 150 pesos ($8.72) and the view is awful nice, though.
 
