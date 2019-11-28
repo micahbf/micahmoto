@@ -77,7 +77,9 @@ After a restful night on the beach there, this finally brings me (after another 
 {% picture bacalar.jpg --alt Lake Bacalar %}
 
 It’s a nice little spot, and a half hour’s ride from the Belizean border.
+
 ---- 
+
 Thinking about crossing the border tomorrow, I can’t satisfactorily convey how rich Mexico is. It’s been a point of stress for me, actually. 48 days in Mexico and there are innumerable things I wish I could have seen but didn’t (Baja California, Mazatlán, eastern Michoacán, Guadalajara, Puebla, Xalapa, Veracruz, ...) and at the same time there are so many places where I felt rushed and wished I could have spent so much more time in (the Huasteca Potosina, the many villages around Oaxaca City and the Oaxacan Coast, the state of Chiapas which I basically blasted through, so many cenotes and ruins and jungles left unexplored in the Yucatan...) In doing rough planning of where I wanted to spend my time in Mexico, there was always tension in finding a balance between breadth and depth of exploration, but really there wasn’t enough time for either. I could easily spend 6 months in Mexico and not run out of things I wanted to do.
 
 I’ve got this date looming, basically the one fixed date I have on this entire trip, and that is the boat I need to catch from Panama to Colombia just after Christmas. It’s amazing how tyrannical this single date feels. On the one hand it feels punishing, making me leave all these things in Mexico left undone, to say nothing of much of the rest of Central America which I am really going to have to blow through. On the other hand, though, it forces me to spend a fair amount of time on that other continent, which I am sure I will be grateful for.
