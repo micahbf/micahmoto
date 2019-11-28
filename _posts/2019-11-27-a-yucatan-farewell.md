@@ -65,7 +65,7 @@ I was briefly in Mexico this past April, for my good friend Ben’s bachelor par
 
 {% picture roadtopuntaallen.jpg --alt The road to Punta Allen %}
 
-At the very end of the road lies Punta Allen. Punta Allen is really special. The creep of the Tulum resort sprawl ends abruptly at the gates to the nature preserve, leaving Punta Allen, a tiny finishing village, almost completely untouched by tourism down this crappy old road. It’s a unique glimpse into life here before the tourist scene really exploded. It’s like what every airplane magazine is trying to tell you awaits in some magical destination while you know it doesn’t because you’re being told about it my an airplane magazine.
+At the very end of the road lies Punta Allen. Punta Allen is really special. The creep of the Tulum resort sprawl ends abruptly at the gates to the nature preserve, leaving Punta Allen, a tiny fishing village, almost completely untouched by tourism down this crappy old road. It’s a unique glimpse into life here before the tourist scene really exploded. It’s like what every airplane magazine is trying to tell you awaits in some magical destination while you know it doesn’t because you’re being told about it my an airplane magazine.
 
 {% picture puntaallenstreet.jpg --alt A street in Punta Allen %}
 {% picture puntaallenbeach.jpg --alt A Punta Allen beach %}
