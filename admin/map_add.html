@@ -1,0 +1,73 @@
+---
+layout: barren
+title: Record Location on Map
+---
+
+<button id="request-location" class="pure-button" type="button">Get Location</button>
+
+<div id="gmap" style="width: 100%; height: 50vh;"></div>
+
+<form class="pure-form" action="https://mapapp.micah.motorcycles/one_off_persist" method="post">
+  <label for="lat">Lat</label>
+  <input type="text" id="lat" name="lat" readonly>
+
+  <label for="lon">Lon</label>
+  <input type="text" id="lon" name="lon" readonly>
+
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password" required>
+
+  <button type="submit" class="pure-button">Submit</button>
+</form>
+
+<script>
+  "use strict";
+
+  let gmap;
+
+  function gmapInit() {
+    gmap = new google.maps.Map(document.getElementById('gmap'), {
+      center: {lat: 18.9637, lng: -99.2499},
+      zoom: 17
+    });
+  }
+
+  const locateOpts = {
+    enableHighAccuracy: true,
+    timeout: 10000,
+    maximumAge: 5 * 60 * 1000
+  };
+
+  function requestLocation(e) {
+    e.preventDefault();
+    navigator.geolocation.getCurrentPosition(locateSuccess, locateError, locateOpts);
+  }
+  document.getElementById('request-location').onclick = requestLocation;
+
+  let currentMarker;
+
+  function locateSuccess(pos) {
+    let {latitude, longitude} = pos.coords;
+    latitude = latitude.toFixed(5);
+    longitude = longitude.toFixed(5);
+
+    document.getElementById('lat').value = latitude;
+    document.getElementById('lon').value = longitude;
+
+    const mapPos = {lat: parseFloat(latitude), lng: parseFloat(longitude)};
+
+    if (currentMarker) { currentMarker.setMap(null) };
+    currentMarker = new google.maps.Marker({
+      position: mapPos,
+      map: gmap,
+      title: 'Current Location'
+    });
+
+    gmap.setCenter(mapPos);
+  }
+
+  function locateError(error) {
+    alert(`Error getting position: ${error.message}`)
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{ site.env.GMAP_API_KEY }}&callback=gmapInit" async defer></script>
