@@ -17,3 +17,22 @@ layout: default
     {{ content }}
   </div>
 </article>
+
+{% if page.previous.url or page.next.url %}
+  <ul class="pagination">
+    {% if page.previous.url %}
+      <li class="prev">
+        <a href="{{ page.previous.url }}">
+          <img src="/assets/layout_images/arrow_prev.svg" alt="Previous post" class="inline-icon">
+          {{ page.previous.title }}</a>
+      </li>
+    {% endif %}
+    {% if page.next.url %}
+      <li class="next">
+        <a href="{{ page.next.url }}">
+          {{ page.next.title }}
+          <img src="/assets/layout_images/arrow_next.svg" alt="Next post" class="inline-icon"></a>
+      </li>
+    {% endif %}
+  </ul>
+{% endif %}
