@@ -23,15 +23,13 @@ layout: default
     {% if page.previous.url %}
       <li class="prev">
         <a href="{{ page.previous.url }}">
-          <img src="/assets/layout_images/arrow_prev.svg" alt="Previous post" class="inline-icon">
-          {{ page.previous.title }}</a>
+          <img src="/assets/layout_images/arrow_prev.svg" alt="Previous post" class="inline-icon">&nbsp;{{ page.previous.title }}</a>
       </li>
     {% endif %}
     {% if page.next.url %}
       <li class="next">
         <a href="{{ page.next.url }}">
-          {{ page.next.title }}
-          <img src="/assets/layout_images/arrow_next.svg" alt="Next post" class="inline-icon"></a>
+          {{ page.next.title }}&nbsp;<img src="/assets/layout_images/arrow_next.svg" alt="Next post" class="inline-icon"></a>
       </li>
     {% endif %}
   </ul>
