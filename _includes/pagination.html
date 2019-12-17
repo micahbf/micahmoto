@@ -1,7 +1,7 @@
 {% if paginator.total_pages > 1 %}
 <ul class="pagination">
   {% if paginator.previous_page %}
-  <li>
+  <li class="prev">
 
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
       <img src="/assets/layout_images/arrow_prev.svg" alt="Newer Posts" class="inline-icon">
@@ -9,7 +9,7 @@
   </li>
   {% endif %}
   {% if paginator.next_page %}
-  <li>
+  <li class="next">
     <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older Posts
       <img src="/assets/layout_images/arrow_next.svg" alt="Older Posts" class="inline-icon"></a>
   </li>
