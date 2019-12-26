@@ -76,6 +76,10 @@ article {
     &:first-child header {
         margin-top: 0;
     }
+
+    .body {
+        text-align: justify;
+    }
 }
 
 footer {
