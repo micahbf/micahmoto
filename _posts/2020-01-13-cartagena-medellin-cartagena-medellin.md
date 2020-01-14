@@ -5,7 +5,7 @@ date: 2020-01-13T18:07:40-05:00
 location: "Medellín, Colombia"
 ---
 
-After New Year’s in Cartagena, it was not long at all before Noah arrived to visit for a week. We spent a couple days in Cartagena, and pretty as it is, there really isn’t a whole lot to do or see in that town. 
+After New Year’s in Cartagena, it was not long at all before Noah (my brother) arrived to visit for a week. We spent a couple days in Cartagena, and pretty as it is, there really isn’t a whole lot to do or see in that town. 
 
 {% picture cartagenaoldtown.jpg --alt A typical block in Cartagena's old town %}
 {% picture cartagenaskyline.jpg --alt Cartagena's very white skyline %}
