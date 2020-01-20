@@ -9,13 +9,13 @@ title: Record Location on Map
 
 <form class="pure-form" action="https://mapapp.micah.motorcycles/one_off_persist" method="post">
   <label for="lat">Lat</label>
-  <input type="text" id="lat" name="lat" readonly>
+  <input type="text" id="lat" name="lat" readonly autocomplete="off">
 
   <label for="lon">Lon</label>
-  <input type="text" id="lon" name="lon" readonly>
+  <input type="text" id="lon" name="lon" readonly autocomplete="off">
 
   <label for="password">Password</label>
-  <input type="password" id="password" name="password" required>
+  <input type="password" id="password" name="password" required autocomplete="current-password">
 
   <button type="submit" class="pure-button">Submit</button>
 </form>
