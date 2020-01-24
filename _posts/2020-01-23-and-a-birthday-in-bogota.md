@@ -43,7 +43,7 @@ After recovering from the fruit-and-vodka slushies, I had a couple days to poke 
 
 {% picture museodeoro.jpg --alt A figure from the Museo de Oro %}
 
-Yesterday it was time to move on, making my way back to the Zona Cafetera, a rollercoaster ride traversing the *cordilleras* of the Colombian Andes, going from Bogotá’s 8,600 feet of elevation (2,640 m) down to 1,600 feet (495 m) in Mariquita to 11,700 feet (3575 m) at Alto de Letras and back down to 6,200 feet (1,895 m) here in Salento. All the while being regularly treated to views like this:
+Yesterday it was time to move on, making my way back to the Zona Cafetera, a rollercoaster ride traversing the *cordilleras* of the Colombian Andes, going from Bogotá’s 8,600 feet of elevation (2,640 m) down to 1,600 feet (495 m) in Mariquita to 11,700 feet (3,575 m) at Alto de Letras and back down to 6,200 feet (1,895 m) here in Salento. All the while being regularly treated to views like this:
 
 {% picture zonacafeteraview.jpg --alt A Zona Cafetera vista %}
 
