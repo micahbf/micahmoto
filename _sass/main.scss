@@ -39,6 +39,27 @@ body {
     padding: 1em;
 }
 
+.mobile-info {
+    @media (min-width: 48em) {
+        display: none;
+    }
+
+    font-family: $header-font-stack;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.mobile-only {
+    @media (min-width: 48em) {
+        display: none;
+    }
+}
+
 .content {
     padding: 2em 1em 0;
     color: $text-main-color;
