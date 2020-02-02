@@ -55,4 +55,4 @@ And, one last treat on my way out: El Santuario de las Lajas, built over the Gu�
 [^1]: I always feel compelled to put the “adventure” of “adventure motorcycling” in scare quotes to disavow responsibility for how dorky that term is.
 [^2]: Ugh.
 [^3]: It bills itself as an “adventure hostel” but let’s not get into that.
-[^4]: Specifically, “KTM 790 Adventure,” and specifically my bike would be the “Africa Twin Adventure Sports”
+[^4]: Specifically, “KTM 790 Adventure R,” and specifically my bike would be the “Africa Twin Adventure Sports”
