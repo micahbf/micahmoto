@@ -112,6 +112,12 @@ footer {
 
 .blog-picture {
   display: block;
+
+  img {
+      max-height: 80vh;
+      margin-left: auto;
+      margin-right: auto;
+  }
 }
 
 .blog-picture + .blog-picture {
