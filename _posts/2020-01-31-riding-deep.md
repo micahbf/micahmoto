@@ -51,6 +51,7 @@ And, one last treat on my way out: El Santuario de las Lajas, built over the Gu�
 
 {% picture santuariodelaslajas.jpg --alt El Santuario de las Lajas %}
 
+
  
 [^1]: I always feel compelled to put the “adventure” of “adventure motorcycling” in scare quotes to disavow responsibility for how dorky that term is.
 [^2]: Ugh.
