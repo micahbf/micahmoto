@@ -10,6 +10,6 @@ markup_presets:
       desktop: 688px
     attributes:
       picture: 'class="pure-img"'
-      img: 'class="pure-img"'
+      img: 'class="pure-img" loading="lazy"'
       a: 'class="blog-picture" target="_blank"'
     link_source: true
